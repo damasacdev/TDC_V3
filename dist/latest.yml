@@ -1,0 +1,8 @@
+version: 3.0.1
+files:
+  - url: TDC-Setup-3.0.1.exe
+    sha512: OZ+6EpbsAf/4KdwvJaiO5wEOf9dSZt0ymmJPlb66rvogt5k6rSzqSaOtT6etjDf9AkTTyb4wUD97QueXO+lH/g==
+    size: 31674784
+path: TDC-Setup-3.0.1.exe
+sha512: OZ+6EpbsAf/4KdwvJaiO5wEOf9dSZt0ymmJPlb66rvogt5k6rSzqSaOtT6etjDf9AkTTyb4wUD97QueXO+lH/g==
+releaseDate: '2018-08-24T05:34:57.426Z'

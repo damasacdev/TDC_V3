@@ -1,0 +1,41 @@
+{
+  "name": "TDC",
+  "version": "3.0.1",
+  "description": "Thai database connector",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir --win --ia32  -p always",
+    "dist": "electron-builder --win --ia32  -p always"
+  },
+  "build": {
+    "icon": "assets/favicon.ico",
+    "productName": "TDC",
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "aomruk",
+        "repo": "tdc-update",
+        "token": "221d4f223d510512577b099f267769a525cf5c36"
+      }
+    ],
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "menuCategory": true,
+      "runAfterFinish": true
+    }
+  },
+  "repository": "aomruk/tdc-update",
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-builder": "^20.28.2"
+  },
+  "dependencies": {
+    
+  }
+}
